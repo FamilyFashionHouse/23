@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Language Center</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        header {
+            background-color: #6a0dad;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        header p {
+            margin: 0;
+            font-size: 1em;
+        }
+        .header-info {
+            margin-top: 60px;
+            text-align: right;
+            width: 100%;
+        }
+        .header-info div {
+            margin: 5px;
+            font-size: 1em;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+            width: 90%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid black;
+            border-radius: 15px;
+            margin-top: 60px;
+            z-index: 1000;
+            background: white;
+        }
+        .content h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .promo-text {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #6a0dad;
+            font-size: 1.1em;
+            border: 2px solid #6a0dad;
+            padding: 10px 20px;
+            border-radius: 15px;
+            transition: 0.3s;
+            width: 100%;
+            max-width: 200px;
+            box-sizing: border-box;
+        }
+        .social-links a:hover {
+            background-color: #6a0dad;
+            color: white;
+        }
+        .trainers-text {
+            font-size: 1.2em;
+            color: #6a0dad;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #6a0dad;
+            color: white;
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .logo { 
+            position: absolute; 
+            top: 10px; 
+            left: 10px; 
+            width: 50px; 
+            height: 50px;
+            border-radius: 50%;
+        }
+        @media(min-width: 480px) {
+            .social-links {
+                flex-direction: row;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>American Language Center</h1>
+        <p>Founded in 1968 by American Mission</p>
+        <img src="logo.jpg" alt="Logo" class="logo">
+    </header>
+    <div class="header-info">
+        <div class="location">Location: New Baneshwor Branch, Kathmandu</div>
+        <div class="phone-number">Contact no: +977-9709089948/58, 9841203541</div>
+        <div><a href="https://alc.edu.np/" target="_blank">www.alc.edu.np</a></div>
+    </div>
+    <p class="trainers-text">Crack the code to become a complete English speaker with our CELTA&TEFL Certified Instructor and improve your EPT scores.</p>
+    <p class="trainers-text">We have been perfecting English for the past 57 years in Nepal and many other countries.</p>
+    <div class="content">
+        <h2>Follow us on Social Media to get updates</h2>
+        <p class="promo-text">Stay connected with us through our social media platforms:</p>
+        <div class="social-links">
+            <a href="https://www.tiktok.com/@americanlanguagecentre?_t=ZS-8sx6ACMgunw&_r=1" target="_blank">TikTok</a>
+            <a href="https://www.instagram.com/alc_new_baneshwor?igsh=b2Nvb3I0bnZyejM1" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=61571627664948&mibextid=ZbWKwL" target="_blank">Facebook</a>
+        </div>
+    </div>
+    <footer>
+        <p>Head office: Naxal, Contact no: 9823016169, 9818154416, 4513046</p>
+        <p>Putalisadak Branch, Contact no: +977 985-1026824</p>
+    </footer>
+</body>
+</html>
